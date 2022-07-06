@@ -1,0 +1,45 @@
+@media screen and (min-width:978px) {
+    
+    .gridIndex{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 10% 40% 30% 20%;
+        grid-template-rows: 15% 40% 40% 5%;
+    
+        grid-template-areas: 
+        "header header header header"
+        ". main img ."
+        ". main img ."
+        "footer footer footer footer";
+    }
+    }
+    header{
+        grid-area: header;
+    }
+    
+    nav{
+        grid-area: header;
+        text-align: center;
+    }
+    
+    
+    .parrafo{
+        grid-area: main;
+        color: white;
+    }
+    
+    .imgFaker{
+        grid-area: img;
+        padding: 10px;
+    }
+    
+    footer{
+        grid-area: footer;
+    }
+    
+    @media(min-width:551px)and (max-width:977px){
+    .imgFaker{
+        width: 60%;
+    }
+    }
