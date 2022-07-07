@@ -24,12 +24,12 @@ body{
     background-size: cover;
 }
 header{
-    background-color: rgb(201, 6, 6);
-    color: black;
+    background-color: black;
+    color: red;
 }
 footer{
-    background-color: rgb(201, 6, 6);
-    color: black;
+    background-color: black;
+    color: red;
 }
 /*Primera pagina modificada*/
 /*GRIDS*/
