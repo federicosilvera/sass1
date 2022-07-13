@@ -1,0 +1,34 @@
+$fondos:(
+    color-principal:black,
+    color-secundario:red,
+);
+
+@each $var, $color in $fondos {
+    .font-#{$var}{
+        background-color: $var;
+    }
+    
+}
+
+.color-de-background{
+    color: black;
+}
+
+.color-de-background--letras{
+    @extend .color-de-background;
+
+    color: red;
+
+}
+
+@mixin  margins{
+    margin: 0;
+    padding: 0;
+}
+
+.contenido-de-la-web{
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    @include margins;
+}
