@@ -1,5 +1,5 @@
 $fondos:(
-    color-principal:black,
+    color-principal: black,
     color-secundario:red,
 );
 
@@ -11,13 +11,13 @@ $fondos:(
 }
 
 .color-de-background{
-    color: black;
+    color: red;
 }
 
 .color-de-background--letras{
     @extend .color-de-background;
 
-    color: red;
+    color: black;
 
 }
 
@@ -29,6 +29,7 @@ $fondos:(
 .contenido-de-la-web{
     box-sizing: border-box;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    
 
     @include margins;
 }
