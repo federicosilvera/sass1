@@ -26,12 +26,15 @@
     
     .parrafo{
         grid-area: main;
-        color: white;
+        color: $color-letra-neutro;
     }
     
     .imgFaker{
         grid-area: img;
         padding: 10px;
+        height: 500px;
+        width: 600px;
+        object-fit: cover;
     }
     
     footer{

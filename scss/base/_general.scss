@@ -15,7 +15,7 @@ nav{
         }
         a{
             text-decoration: none;
-            color: white;
+            color: $color-letra-neutro;
         }
     }
 }
@@ -25,17 +25,21 @@ body{
     background-image: url(../images/grieta.jpg);
     background-size: cover;
     header{
-        background-color: black ;
-        color: red;
+        background-color: $color-de-fondo ;
+        color: $color-de-letra;
         main{
-            color: white;
+            color: $color-letra-neutro;
             
         }
     }
 }
 
 footer{
-    background-color: black;
-    color: red;
+    background-color: $color-de-fondo;
+    color: $color-de-letra;
 
+}
+
+url{
+    opacity: 0.5;
 }
