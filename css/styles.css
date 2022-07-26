@@ -88,8 +88,8 @@ nav {
 .imgFaker {
   grid-area: img;
   padding: 10px;
-  height: 500px;
-  width: 600px;
+  height: 50vh;
+  width: 60vh;
   object-fit: cover;
 }
 
@@ -127,8 +127,8 @@ footer {
   }
   .imagen-1 {
     grid-area: img1;
-    height: 250px;
-    width: 500px;
+    height: 50vh;
+    width: 60vh;
     object-fit: contain;
   }
   .parrafo-2 {
@@ -139,8 +139,8 @@ footer {
   }
   .imagen-2 {
     grid-area: img2;
-    height: 250px;
-    width: 500px;
+    height: 50vh;
+    width: 60vh;
     object-fit: contain;
   }
   .parrafo-3 {
@@ -151,8 +151,8 @@ footer {
   }
   .imagen-3 {
     grid-area: img3;
-    height: 250px;
-    width: 500px;
+    height: 50vh;
+    width: 60vh;
     object-fit: contain;
   }
   footer {
