@@ -1,0 +1,300 @@
+@media screen and (min-width: 871px) {.gridsChamps{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 15vh 10vh 60vh 60vh 60vh 60vh 60vh 5vh;
+    grid-template-areas: 
+    "header header header"
+    "h2 h2 h2"
+    ". img1 ."
+    ". img2 ."
+    ". img3 ."
+    ". img4 ."
+    ". img5 ."
+    "footer footer footer";
+}
+
+header{
+    grid-area: header ;
+}
+
+h2{
+    grid-area: h2;
+}
+.img-1{
+    grid-area: img1;
+    width: 80vh;
+    height: 50vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-2{
+    grid-area: img2;
+    width: 80vh;
+    height: 50vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-3{
+    grid-area: img3;
+    width: 80vh;
+    height: 50vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-4{
+    grid-area: img4;
+    width: 80vh;
+    height: 50vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-5{
+    grid-area: img5;
+    width: 80vh;
+    height: 50vh;
+    object-fit: cover;
+    color: white;
+}
+  
+
+footer{
+    grid-area: footer;
+}
+    
+}
+
+@media screen and (max-width: 870px) and (min-width: 561px) {.gridsChamps{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 27vh 10vh 60vh 60vh 60vh 60vh 60vh 5vh;
+    grid-template-areas: 
+    "header header header"
+    "h2 h2 h2"
+    ". img1 ."
+    ". img2 ."
+    ". img3 ."
+    ". img4 ."
+    ". img5 ."
+    "footer footer footer";
+}
+
+header{
+    grid-area: header ;
+}
+
+h2{
+    grid-area: h2;
+    font-size: 1rem;
+    color: white;
+}
+.img-1{
+    grid-area: img1;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-2{
+    grid-area: img2;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-3{
+    grid-area: img3;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-4{
+    grid-area: img4;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-5{
+    grid-area: img5;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+  
+
+footer{
+    grid-area: footer;
+}
+    
+
+
+
+}
+   
+@media screen and (max-width: 560px) and (min-width:401px) {.gridsChamps{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35vh 10vh 60vh 60vh 60vh 60vh 60vh 10vh;
+    grid-template-areas: 
+    "header header "
+    "h2 h2 "
+    "img1 img1 "
+    "img2 img2 "
+    "img3 img3 "
+    "img4 img4 "
+    "img5 img5 "
+    "footer footer ";
+}
+
+header{
+    grid-area: header ;
+}
+
+h2{
+    grid-area: h2;
+    font-size: 1rem;
+    color: white;
+}
+.img-1{
+    grid-area: img1;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-2{
+    grid-area: img2;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-3{
+    grid-area: img3;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-4{
+    grid-area: img4;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-5{
+    grid-area: img5;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+  
+
+footer{
+    grid-area: footer;
+}
+    
+
+
+
+}
+
+@media screen and (max-width: 400px){.gridsChamps{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60vh 10vh 60vh 60vh 60vh 60vh 60vh 10vh;
+    grid-template-areas: 
+    "header header "
+    "h2 h2 "
+    "img1 img1 "
+    "img2 img2 "
+    "img3 img3 "
+    "img4 img4 "
+    "img5 img5 "
+    "footer footer ";
+}
+
+header{
+    grid-area: header ;
+}
+
+h2{
+    grid-area: h2;
+    font-size: 1rem;
+    color: white;
+}
+.img-1{
+    grid-area: img1;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-2{
+    grid-area: img2;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-3{
+    grid-area: img3;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-4{
+    grid-area: img4;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+
+.img-5{
+    grid-area: img5;
+    width: 50vh;
+    height: 30vh;
+    object-fit: cover;
+    color: white;
+}
+  
+
+footer{
+    grid-area: footer;
+}
+    
+
+
+
+}
+
+

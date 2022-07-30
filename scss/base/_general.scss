@@ -10,20 +10,23 @@ nav{
     li{
         display: inline-block;
         padding: 10px;
-        &:hover{
-            transform:scale(1,3)
-        }
         a{
             text-decoration: none;
-            color: $color-letra-neutro;
+            color: $color-letra-neutro; 
+            &:hover{
+                color: black;
+                background-color: white;
+            border-radius: 10%;
+            }
+
         }
     }
 }
 }
 
 body{
-    background-image: url(../images/grieta.jpg);
-    background-size: cover;
+    background-image: url(../images/fondo2.jpg);
+    background-attachment: fixed;    
     header{
         background-color: $color-de-fondo ;
         color: $color-de-letra;
@@ -38,8 +41,4 @@ footer{
     background-color: $color-de-fondo;
     color: $color-de-letra;
 
-}
-
-url{
-    opacity: 0.5;
 }

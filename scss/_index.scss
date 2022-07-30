@@ -1,4 +1,4 @@
-@media screen and (min-width:978px) {
+@media screen and (min-width:980px) {
     
     .gridIndex{
         height: 100vh;
@@ -27,6 +27,8 @@
     .parrafo{
         grid-area: main;
         color: $color-letra-neutro;
+        background-color: rgba(0, 0, 0, 0.397);
+        height: 370px;
     }
     
     .imgFaker{
@@ -39,10 +41,47 @@
     
     footer{
         grid-area: footer;
+        display: flex;
+        justify-content:space-around;
     }
     
-    @media(min-width:551px)and (max-width:977px){
+    @media(min-width:551px)and (max-width:979px){
     .imgFaker{
         width: 60%;
+        object-fit: cover;
+        margin-bottom: 10px;
     }
     }
+
+    @media(max-width:550px) and (min-width:497px){
+        .imgFaker{
+            width: 100%;
+            object-fit: contain;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .parrafo{
+            font-size: 1rem;
+            
+        }
+    }
+
+    @media(max-width:496px) and (min-width:349px){
+        .parrafo{
+            font-size: 0.8rem;
+        }
+
+        .imgFaker{
+            margin-bottom: 10px;
+        }
+    }
+
+@media(max-width:348px){
+    .parrafo{
+        font-size: 0.7rem;
+    }
+
+    .imgFaker{
+        margin-bottom: 10px;
+    }
+}

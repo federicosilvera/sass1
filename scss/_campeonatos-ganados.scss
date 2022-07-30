@@ -26,8 +26,10 @@ h2{
 }
 .parrafo-1{
     grid-area: p1;
-    padding: 10px;
-    margin: 15px;
+    
+    display: flex;
+    align-items: center;
+    
     color: white;
 }
 .imagen-1{
@@ -39,21 +41,25 @@ h2{
 }
 .parrafo-2{
     grid-area: p2;
-    padding: 10px;
-    margin: 15px;
+    
+    display: flex;
+    align-items: center;
+   
     color: $color-letra-neutro;
 }
 .imagen-2{
     grid-area: img2;
     height: 50vh;
-    width: 60vh;
+    width: 48vh;
     object-fit: contain;
     
 }
 .parrafo-3{
     grid-area: p3;
-    padding: 10px;
-    margin: 15px;
+    
+    display: flex;
+    align-items: center;
+    
     color: $color-letra-neutro;
 }
 

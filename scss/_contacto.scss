@@ -1,0 +1,165 @@
+@media screen and (min-width: 761px) {.gridCont{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows:20% 10% 70% 5%;
+    grid-template-areas: 
+    "header header "
+    "h2 h2"
+    "texto formulario"
+    "footer footer ";
+}
+header{
+    grid-area: header;   
+}
+
+h2{
+    grid-area: h2;
+}
+
+.texto{
+    grid-area: texto;
+    color: white;
+    font-size: 1.5rem;
+}
+
+form{
+    grid-area: formulario;
+}
+footer{
+    grid-area: footer;
+}
+}
+
+@media screen and (max-width: 760px) and (min-width:621px){.gridCont{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns:  100% ;
+    grid-template-rows:30% 10%  20% 85% 5%;
+    grid-template-areas: 
+    "header "
+    "h2"
+    "texto"
+    "formulario"
+    "footer";
+}
+header{
+    grid-area: header;   
+}
+
+h2{
+    grid-area: h2;
+}
+.texto{
+    grid-area: texto;
+    color: white;
+    font-size: 1rem;
+}
+form{
+    grid-area: formulario;
+}
+footer{
+    grid-area: footer;
+}
+}
+
+@media screen and (max-width: 620px) and (min-width:471px) {.gridCont{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns:  100% ;
+    grid-template-rows:30% 10%  20% 100% 10%;
+    grid-template-areas: 
+    "header "
+    "h2"
+    "texto"
+    "formulario"
+    "footer";
+}
+header{
+    grid-area: header;   
+}
+
+h2{
+    grid-area: h2;
+}
+.texto{
+    grid-area: texto;
+    color: white;
+    font-size: 1rem;
+}
+form{
+    grid-area: formulario;
+}
+footer{
+    grid-area: footer;
+}
+}
+
+@media screen and (max-width: 470px) and (min-width:396px) {.gridCont{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns:  100% ;
+    grid-template-rows:45% 10%  20% 100% 10%;
+    grid-template-areas: 
+    "header "
+    "h2"
+    "texto"
+    "formulario"
+    "footer";
+}
+header{
+    grid-area: header;   
+}
+
+h2{
+    grid-area: h2;
+}
+.texto{
+    grid-area: texto;
+    color: white;
+    font-size: 1rem;
+}
+form{
+    grid-area: formulario;
+}
+footer{
+    grid-area: footer;
+}
+}
+
+@media screen and (max-width: 395px) {.gridCont{
+    height: 100vh;
+     width: 100%;
+    display: grid;
+    grid-template-columns:  100% ;
+    grid-template-rows:50% 10%  30% 120% 10%;
+    grid-template-areas: 
+    "header "
+    "h2"
+    "texto"
+    "formulario"
+    "footer";
+}
+header{
+    grid-area: header;   
+}
+
+h2{
+    grid-area: h2;
+}
+.texto{
+    grid-area: texto;
+    color: white;
+    font-size: 1rem;
+}
+form{
+    grid-area: formulario;
+}
+footer{
+    grid-area: footer;
+}
+}
