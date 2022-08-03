@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    .icon{
+        width: 30px;
+    }
 }
 
 nav{
@@ -10,12 +13,14 @@ nav{
     li{
         display: inline-block;
         padding: 10px;
-        a{
+        a{  color: $color-de-fondo;
+            background-color: $color-letra-neutro;
             text-decoration: none;
-            color: $color-letra-neutro; 
+            border-radius: 10%;
+            
             &:hover{
-                color: black;
-                background-color: white;
+                color: $color-letra-neutro;
+                background-color: $color-de-fondo;
             border-radius: 10%;
             }
 
@@ -40,5 +45,12 @@ body{
 footer{
     background-color: $color-de-fondo;
     color: $color-de-letra;
+    a{
+        color:$color-letra-neutro;
+        &:hover{
+            color: $color-de-letra;
+            }
+    }
 
 }
+

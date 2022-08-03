@@ -1,7 +1,9 @@
-@media screen and (min-width:815px) {.gridCG{
+@media screen and (min-width:815px) {.grid-cg{
+    height: 100vh;
+    width: 100%;
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 10% 10% 25% 25% 30% 5%;
+    grid-template-rows: 10% 10% 35% 35% 45% 5%;
 
     grid-template-areas: 
     "header header header header"
@@ -22,7 +24,9 @@ nav{
 
 h2{
     grid-area: h2;
-    color: white;
+    color: $color-letra-neutro;
+    display: flex;
+    align-items: center;
 }
 .parrafo-1{
     grid-area: p1;
@@ -30,11 +34,11 @@ h2{
     display: flex;
     align-items: center;
     
-    color: white;
+    color: $color-letra-neutro;
 }
 .imagen-1{
     grid-area: img1;
-    height: 50vh;
+    height: 40vh;
     width: 60vh;
     object-fit: contain;
     
@@ -76,7 +80,16 @@ footer{
 }
 }
 @media(max-width:814px){
-    .gridCG{
+    .grid-cg{
         color: $color-letra-neutro;
+    }
+    .imagen-1{
+        width: 60vh;
+    }
+    .imagen-2{
+        width: 60vh;
+    }
+    .imagen-3{
+        width: 60vh;
     }
 }

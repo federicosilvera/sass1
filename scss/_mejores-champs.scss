@@ -1,4 +1,4 @@
-@media screen and (min-width: 871px) {.gridsChamps{
+@media screen and (min-width: 871px) {.grids-champs{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -27,7 +27,7 @@ h2{
     width: 80vh;
     height: 50vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-2{
@@ -35,7 +35,7 @@ h2{
     width: 80vh;
     height: 50vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-3{
@@ -43,7 +43,7 @@ h2{
     width: 80vh;
     height: 50vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-4{
@@ -51,7 +51,7 @@ h2{
     width: 80vh;
     height: 50vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-5{
@@ -59,7 +59,7 @@ h2{
     width: 80vh;
     height: 50vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
   
 
@@ -69,7 +69,7 @@ footer{
     
 }
 
-@media screen and (max-width: 870px) and (min-width: 561px) {.gridsChamps{
+@media screen and (max-width: 870px) and (min-width: 561px) {.grids-champs{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -93,14 +93,14 @@ header{
 h2{
     grid-area: h2;
     font-size: 1rem;
-    color: white;
+    color: $color-letra-neutro;
 }
 .img-1{
     grid-area: img1;
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-2{
@@ -108,7 +108,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-3{
@@ -116,7 +116,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-4{
@@ -124,7 +124,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-5{
@@ -132,7 +132,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
   
 
@@ -145,7 +145,7 @@ footer{
 
 }
    
-@media screen and (max-width: 560px) and (min-width:401px) {.gridsChamps{
+@media screen and (max-width: 560px) and (min-width:401px) {.grids-champs{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -169,14 +169,14 @@ header{
 h2{
     grid-area: h2;
     font-size: 1rem;
-    color: white;
+    color: $color-letra-neutro;
 }
 .img-1{
     grid-area: img1;
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-2{
@@ -184,7 +184,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-3{
@@ -192,7 +192,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-4{
@@ -200,7 +200,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-5{
@@ -208,7 +208,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
   
 
@@ -221,7 +221,7 @@ footer{
 
 }
 
-@media screen and (max-width: 400px){.gridsChamps{
+@media screen and (max-width: 400px){.grids-champs{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -245,14 +245,14 @@ header{
 h2{
     grid-area: h2;
     font-size: 1rem;
-    color: white;
+    color: $color-letra-neutro;
 }
 .img-1{
     grid-area: img1;
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-2{
@@ -260,7 +260,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-3{
@@ -268,7 +268,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-4{
@@ -276,7 +276,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
 
 .img-5{
@@ -284,7 +284,7 @@ h2{
     width: 50vh;
     height: 30vh;
     object-fit: cover;
-    color: white;
+    color: $color-letra-neutro;
 }
   
 

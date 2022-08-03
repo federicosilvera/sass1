@@ -1,31 +1,11 @@
-.font-color-principal {
-  background-color: color-principal;
-}
-
-.font-color-secundario {
-  background-color: color-secundario;
-}
-
-.color-de-background, .color-de-background--letras {
-  color: red;
-}
-
-.color-de-background--letras {
-  color: black;
-}
-
-.contenido-de-la-web {
-  box-sizing: border-box;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Kdam Thmor Pro", sans-serif;
+}
+* .icon {
+  width: 30px;
 }
 
 nav ul li {
@@ -33,12 +13,14 @@ nav ul li {
   padding: 10px;
 }
 nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-nav ul li a:hover {
   color: black;
   background-color: white;
+  text-decoration: none;
+  border-radius: 10%;
+}
+nav ul li a:hover {
+  color: white;
+  background-color: black;
   border-radius: 10%;
 }
 
@@ -58,15 +40,21 @@ footer {
   background-color: black;
   color: rgb(252, 0, 0);
 }
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: rgb(252, 0, 0);
+}
 
 @media screen and (min-width: 980px) {
-  .gridIndex {
+  .grid-index {
     height: 100vh;
     width: 100%;
     display: grid;
     grid-template-columns: 10% 40% 30% 20%;
     grid-template-rows: 15% 40% 40% 5%;
-    grid-template-areas: "header header header header" ". main img ." ". main img ." "footer footer footer footer";
+    grid-template-areas: "header header header header" ". parrafo img ." ". parrafo img ." "footer footer footer footer";
   }
 }
 header {
@@ -79,13 +67,13 @@ nav {
 }
 
 .parrafo {
-  grid-area: main;
+  grid-area: parrafo;
   color: white;
   background-color: rgba(0, 0, 0, 0.397);
   height: 370px;
 }
 
-.imgFaker {
+.img-faker {
   grid-area: img;
   padding: 10px;
   height: 50vh;
@@ -100,28 +88,35 @@ footer {
 }
 
 @media (min-width: 551px) and (max-width: 979px) {
-  .imgFaker {
-    width: 60%;
-    object-fit: cover;
+  .img-faker {
+    width: 100%;
+    object-fit: contain;
     margin-bottom: 10px;
+  }
+  main.parrafo {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 550px) and (min-width: 497px) {
-  .imgFaker {
-    width: 100%;
+  .img-faker {
+    width: 80%;
     object-fit: contain;
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  .parrafo {
+  main.parrafo {
     font-size: 1rem;
   }
 }
 @media (max-width: 496px) and (min-width: 349px) {
-  .parrafo {
+  main.parrafo {
     font-size: 0.8rem;
   }
-  .imgFaker {
+  .img-faker {
+    width: 100%;
     margin-bottom: 10px;
   }
 }
@@ -129,15 +124,18 @@ footer {
   .parrafo {
     font-size: 0.7rem;
   }
-  .imgFaker {
+  .img-faker {
     margin-bottom: 10px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 815px) {
-  .gridCG {
+  .grid-cg {
+    height: 100vh;
+    width: 100%;
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 10% 10% 25% 25% 30% 5%;
+    grid-template-rows: 10% 10% 35% 35% 45% 5%;
     grid-template-areas: "header header header header" "h2 h2 h2 h2" " . p1 img1 . " " . img2 p2 . " " . p3 img3 . " "footer footer footer footer";
   }
   header {
@@ -149,6 +147,8 @@ footer {
   h2 {
     grid-area: h2;
     color: white;
+    display: flex;
+    align-items: center;
   }
   .parrafo-1 {
     grid-area: p1;
@@ -158,7 +158,7 @@ footer {
   }
   .imagen-1 {
     grid-area: img1;
-    height: 50vh;
+    height: 40vh;
     width: 60vh;
     object-fit: contain;
   }
@@ -191,12 +191,21 @@ footer {
   }
 }
 @media (max-width: 814px) {
-  .gridCG {
+  .grid-cg {
     color: white;
+  }
+  .imagen-1 {
+    width: 60vh;
+  }
+  .imagen-2 {
+    width: 60vh;
+  }
+  .imagen-3 {
+    width: 60vh;
   }
 }
 @media screen and (min-width: 841px) {
-  .gridsMJ {
+  .grids-mj {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -220,7 +229,7 @@ footer {
   }
 }
 @media (max-width: 840px) and (min-width: 646px) {
-  .gridsMJ {
+  .grids-mj {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -242,7 +251,7 @@ footer {
   }
 }
 @media (max-width: 645px) {
-  .gridsMJ {
+  .grids-mj {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -250,22 +259,25 @@ footer {
     grid-template-rows: 35% 70% 7%;
     grid-template-areas: "header" "play" "footer";
   }
-  .gridsMJ h2 {
+  .grids-mj h2 {
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .gridsMJ header {
+  .grids-mj header {
     grid-area: header;
   }
-  .gridsMJ .play1 {
+  .grids-mj .play1 {
     grid-area: play;
     height: 100%;
   }
-  .gridsMJ footer {
+  .grids-mj footer {
     grid-area: footer;
   }
 }
 @media screen and (min-width: 871px) {
-  .gridsChamps {
+  .grids-champs {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -319,7 +331,7 @@ footer {
   }
 }
 @media screen and (max-width: 870px) and (min-width: 561px) {
-  .gridsChamps {
+  .grids-champs {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -375,7 +387,7 @@ footer {
   }
 }
 @media screen and (max-width: 560px) and (min-width: 401px) {
-  .gridsChamps {
+  .grids-champs {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -431,7 +443,7 @@ footer {
   }
 }
 @media screen and (max-width: 400px) {
-  .gridsChamps {
+  .grids-champs {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -487,7 +499,7 @@ footer {
   }
 }
 @media screen and (min-width: 761px) {
-  .gridCont {
+  .grid-cont {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -512,9 +524,12 @@ footer {
   footer {
     grid-area: footer;
   }
+  label {
+    color: white;
+  }
 }
 @media screen and (max-width: 760px) and (min-width: 621px) {
-  .gridCont {
+  .grid-cont {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -539,9 +554,12 @@ footer {
   footer {
     grid-area: footer;
   }
+  label {
+    color: white;
+  }
 }
 @media screen and (max-width: 620px) and (min-width: 471px) {
-  .gridCont {
+  .grid-cont {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -566,9 +584,12 @@ footer {
   footer {
     grid-area: footer;
   }
+  label {
+    color: white;
+  }
 }
 @media screen and (max-width: 470px) and (min-width: 396px) {
-  .gridCont {
+  .grid-cont {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -593,9 +614,12 @@ footer {
   footer {
     grid-area: footer;
   }
+  label {
+    color: white;
+  }
 }
 @media screen and (max-width: 395px) {
-  .gridCont {
+  .grid-cont {
     height: 100vh;
     width: 100%;
     display: grid;
@@ -619,6 +643,9 @@ footer {
   }
   footer {
     grid-area: footer;
+  }
+  label {
+    color: white;
   }
 }
 

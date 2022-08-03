@@ -1,4 +1,4 @@
-@media screen and (min-width: 841px) {.gridsMJ{
+@media screen and (min-width: 841px) {.grids-mj{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width:840px) and (min-width:646px){.gridsMJ{
+@media (max-width:840px) and (min-width:646px){.grids-mj{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -59,7 +59,7 @@ footer{
     
 }
 
-@media (max-width: 645px) {.gridsMJ{
+@media (max-width: 645px) {.grids-mj{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -70,7 +70,12 @@ footer{
     "header"
     "play"
     "footer";
-    h2 {color: $color-letra-neutro ;}
+    h2 {
+      color: $color-letra-neutro ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     header{
         grid-area: header;
     }

@@ -1,6 +1,5 @@
 @media screen and (min-width:980px) {
-    
-    .gridIndex{
+    .grid-index{
         height: 100vh;
         width: 100%;
         display: grid;
@@ -9,11 +8,12 @@
     
         grid-template-areas: 
         "header header header header"
-        ". main img ."
-        ". main img ."
+        ". parrafo img ."
+        ". parrafo img ."
         "footer footer footer footer";
     }
     }
+    
     header{
         grid-area: header;
     }
@@ -25,13 +25,13 @@
     
     
     .parrafo{
-        grid-area: main;
+        grid-area: parrafo;
         color: $color-letra-neutro;
         background-color: rgba(0, 0, 0, 0.397);
         height: 370px;
     }
     
-    .imgFaker{
+    .img-faker{
         grid-area: img;
         padding: 10px;
         height: 50vh;
@@ -44,34 +44,42 @@
         display: flex;
         justify-content:space-around;
     }
-    
+
+ 
     @media(min-width:551px)and (max-width:979px){
-    .imgFaker{
-        width: 60%;
-        object-fit: cover;
+    .img-faker{
+        width: 100%;
+        object-fit: contain;
         margin-bottom: 10px;
+    }
+    main.parrafo{
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     }
 
     @media(max-width:550px) and (min-width:497px){
-        .imgFaker{
-            width: 100%;
+        .img-faker{
+            width: 80%;
             object-fit: contain;
             margin-top: 10px;
             margin-bottom: 20px;
         }
-        .parrafo{
+        main.parrafo{
             font-size: 1rem;
             
         }
     }
 
     @media(max-width:496px) and (min-width:349px){
-        .parrafo{
+        main.parrafo{
             font-size: 0.8rem;
         }
 
-        .imgFaker{
+        .img-faker{
+            width: 100%;
             margin-bottom: 10px;
         }
     }
@@ -81,7 +89,8 @@
         font-size: 0.7rem;
     }
 
-    .imgFaker{
+    .img-faker{
         margin-bottom: 10px;
+        width: 100%;
     }
 }
