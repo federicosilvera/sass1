@@ -41,6 +41,8 @@ h2{
     height: 40vh;
     width: 60vh;
     object-fit: contain;
+    animation-name: aparicion;
+    animation-duration: 2s;
     
 }
 .parrafo-2{
@@ -56,6 +58,8 @@ h2{
     height: 50vh;
     width: 48vh;
     object-fit: contain;
+    animation-name: aparicion;
+    animation-duration: 2s;
     
 }
 .parrafo-3{
@@ -73,6 +77,9 @@ h2{
     height: 50vh;
     width: 60vh;
     object-fit: contain;
+    animation-name: aparicion;
+    animation-duration: 2s;
+    border-radius: 5px;
 }
 
 footer{
@@ -85,11 +92,17 @@ footer{
     }
     .imagen-1{
         width: 60vh;
+        animation-name: aparicion;
+        animation-duration: 2s;
     }
     .imagen-2{
         width: 60vh;
+        animation-name: aparicion;
+        animation-duration: 2s;
     }
     .imagen-3{
         width: 60vh;
+        animation-name: aparicion;
+        animation-duration: 2s;
     }
 }
