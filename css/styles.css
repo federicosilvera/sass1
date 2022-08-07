@@ -8,6 +8,10 @@
   width: 30px;
   height: 30px;
 }
+* a {
+  text-decoration: none;
+  color: rgb(252, 0, 0);
+}
 
 nav ul li {
   display: inline-block;
