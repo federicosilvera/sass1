@@ -183,7 +183,7 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 10% 10% 35% 35% 45% 5%;
+    grid-template-rows: 20% 15% 40% 40% 45% 5%;
     grid-template-areas: "header header header header" "h2 h2 h2 h2" " . p1 img1 . " " . img2 p2 . " " . p3 img3 . " "footer footer footer footer";
   }
   header {
@@ -197,7 +197,6 @@ footer {
     color: white;
     display: flex;
     align-items: center;
-    padding-top: 40px;
   }
   .parrafo-1 {
     grid-area: p1;
