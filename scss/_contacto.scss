@@ -1,4 +1,4 @@
-@media screen and (min-width: 761px) {.grid-cont{
+@media screen and (min-width: 926px) {.grid-cont{
     height: 100vh;
      width: 100%;
     display: grid;
@@ -26,6 +26,7 @@ h2{
 
 form{
     grid-area: formulario;
+    
 }
 footer{
     grid-area: footer;
@@ -36,7 +37,7 @@ label{
 }
 }
 
-@media screen and (max-width: 760px) and (min-width:621px){.grid-cont{
+@media screen and (max-width: 925px) and (min-width:621px){.grid-cont{
     height: 100vh;
      width: 100%;
     display: grid;
